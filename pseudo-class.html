@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo-class</title>
+    <style>
+        li{
+            list-style: none;
+        }
+        a:link, a:visited{
+            text-decoration: none;
+            background-color: green;
+            border: 1px solid blue;
+            color: black;
+            display: block;
+            width: 200px;
+            text-align: center;
+            margin-bottom: 1px;
+        }
+        a:active, a:hover{
+            background-color: red;
+            color: purple;
+        }
+        header li:nth-child(3){
+            font-size: 24px;
+        }
+        section div:nth-child(odd){
+            background-color: gray;
+        }
+        section div:nth-child(even):hover{
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <h1>Pseudo Class Selector</h1>
+    <header>
+        <ul>
+            <li><a href="https://www.google.com/search?q=google&oq=google+&aqs=chrome..69i57j0i131i433i512j69i59i131i433i512j0i433i512j0i131i433i512j0i433i512j69i60l2.2712j0j9&sourceid=chrome&ie=UTF-8">Home</a></li>
+            <li><a href="https://www.facebook.com/:"> Facebook</a></li>
+            <li><a href="https://portal.mabinicolleges.edu.ph/">MC Portal</a></li>
+        </ul>
+        <section>
+            <div>DIV 1</div>
+            <div>DIV 2</div>
+            <div>DIV 3</div>
+            <div>DIV 4</div>
+            <div>DIV 5</div>
+            <div>DIV 6</div>
+            <div>DIV 7</div>
+            <div>DIV 8</div>
+            <div>DIV 9</div>
+            <div>DIV 10</div>
+            <div>DIV 11</div>
+            <div>DIV 12</div>
+            <div>DIV 13</div>
+            <div>DIV 14</div>
+            <div>DIV 15</div>
+            <div>DIV 16</div>
+            <div>DIV 17</div>
+            <div>DIV 18</div>
+            <div>DIV 19</div>
+            <div>DIV 20</div>
+         </section>
+         </header>
+</body>
+</html>
